@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabhdaware/abell-sitemap-plugin.git"
+    "url": "git+https://github.com/abelljs/official-plugins.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saurabhdaware/abell-sitemap-plugin/issues"
+    "url": "https://github.com/abelljs/official-plugins/issues"
   },
   "peerDependencies": {
     "abell": "^0.4.0"
   },
-  "homepage": "https://github.com/saurabhdaware/abell-sitemap-plugin#readme",
+  "homepage": "https://github.com/abelljs/official-plugins#readme",
   "devDependencies": {
     "abell": "^0.4.0-beta.8"
   }

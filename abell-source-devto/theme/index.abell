@@ -1,0 +1,13 @@
+<body>
+<h1>DEV.to Articles</h1>
+{{
+  $contentArray
+    .map(meta => `
+    <div>
+      ${meta.title}
+      ${meta.$createdAt.toDateString()}
+      <a href="${meta.$path}">${meta.$path}</a>
+    </div>
+    `)
+}}
+</body>
