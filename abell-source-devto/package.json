@@ -1,16 +1,16 @@
 {
   "name": "abell-source-devto",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "EXPERIMENTAL dev.to source plugin for [Abell](https://abelljs.org)",
   "main": "plugin/index.js",
   "dependencies": {
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "abell": "^0.3.5"
+    "abell": "^0.4.0-beta.8"
   },
   "peerDependencies": {
-    "abell": "^0.3.5"
+    "abell": "^0.4.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

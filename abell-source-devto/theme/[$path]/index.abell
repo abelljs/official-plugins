@@ -1,3 +1,0 @@
-<body>
-{{ $importContent(`${meta.$path}/index.md`) }}
-</body>
