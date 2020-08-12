@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/abelljs/official-plugins#readme",
   "devDependencies": {
-    "abell": "^0.4.0-beta.8"
+    "abell": "^0.4.0-rc.7"
   }
 }

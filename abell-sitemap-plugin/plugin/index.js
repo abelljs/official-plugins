@@ -30,7 +30,7 @@ const afterBuild = (programInfo) => {
     ...Object.values(programInfo.templateMap)
     .filter(template => !template.shouldLoop)
     .map(template => {
-      const pathToAppend = template.$path.replace('.abell', '.html').replace('index.html', '');
+      const pathToAppend = template.htmlPath.replace('index.html', '');
       return {
         loc: path.join(globalMeta.domain, pathToAppend),
         changefreq: 'monthly',
