@@ -1,0 +1,29 @@
+{
+  "name": "abell-a11y-plugin",
+  "version": "0.0.1",
+  "description": "Accessibility plugin for Abell",
+  "main": "plugin/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "abell": "^0.5.0-alpha.1"
+  },
+  "peerDependencies": {
+    "abell": "^0.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "abell serve",
+    "build": "abell build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abelljs/official-plugins.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abelljs/official-plugins/issues"
+  },
+  "homepage": "https://github.com/abelljs/official-plugins#readme"
+}
