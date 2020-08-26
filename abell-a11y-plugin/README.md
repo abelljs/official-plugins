@@ -27,7 +27,8 @@ module.exports = {
 - Fork this repository 
 
 ```
-cd `official-plugins/abell-a11y-plugin`
+git clone https://github.com/<your-username>/official-plugins
+cd official-plugins/abell-a11y-plugin
 npm install # to install dependencies
 npm run dev # to run dev server
 ```
