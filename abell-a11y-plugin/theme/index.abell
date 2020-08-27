@@ -3,30 +3,41 @@
     <style>
       body {
         font-family: arial;
+        padding: 50px;
       }
+      .flex { display: flex }
     </style>
   </head>
   <body>
-    <h1>DEV.to Articles</h1>
-    {{
-      Abell.contentArray
-        .map(meta => /* html */ `
-        <div>
-          ${meta.title}
-          ${meta.$createdAt.toDateString()}
-          <a href="${meta.$path}">${meta.$path}</a>
-        </div>
-        `)
-    }}
+    <h1>Accessibility Test</h1>
+    <div class="flex">
+      <div style="flex: 1;">
+        <section>
+          <h2>Image without alt tag</h2>
+          <img 
+            width="400" 
+            src="https://res.cloudinary.com/saurabhdaware/image/upload/v1588342001/abell/og.png"
+          />
+        </section>
 
-    <section>
-      <h2>Image without alt tag</h2>
-      <img width="400" src="https://res.cloudinary.com/saurabhdaware/image/upload/v1588342001/abell/og.png"/>
-    </section>
-
-    <section>
-      <h2>Image with alt tag</h2>
-      <img width="400" alt="Abell Minima Cover" src="https://res.cloudinary.com/saurabhdaware/image/upload/v1588342001/abell/og.png"/>
-    </section>
+        <section>
+          <h2>Image with alt tag</h2>
+          <img width="400" alt="Abell Minima Cover" src="https://res.cloudinary.com/saurabhdaware/image/upload/v1588342001/abell/og.png"/>
+        </section>
+      </div>
+      <div style="flex: 1;">
+        <section>
+          <h2>Form labels without for attribute</h2>
+          <label for="tel">Phone Number</label>
+          <input id="tel" type="tel"/>
+          <br/>
+          <label>Email</label>
+          <input type="email"/>
+          <br/>
+          <label for="password">Password</label>
+          <input id="password" type="password"/>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
