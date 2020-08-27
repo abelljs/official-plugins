@@ -1,6 +1,6 @@
 {
   "name": "abell-a11y-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Accessibility plugin for Abell",
   "main": "plugin/index.js",
   "dependencies": {},
