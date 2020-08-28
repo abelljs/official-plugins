@@ -57,6 +57,18 @@ function beforeHTMLWrite(htmlText, programInfo) {
       background-color: var(--abell-a11y-bg);
       color: var(--abell-a11y-color);
     }
+
+    /*
+      Snippet to check if lists don't have any tags other than <li>
+    */
+    ul *:not(li) {
+      content: 'Unordered List can only have <li> tags';
+      border: 2px solid var(--abell-a11y-error);
+    }
+    ol *:not(li) {
+      content: 'Unordered List can only have <li> tags';
+      border: 2px solid var(--abell-a11y-error);
+    }
   </style>
   `;
 
