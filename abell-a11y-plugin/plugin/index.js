@@ -61,12 +61,12 @@ function beforeHTMLWrite(htmlText, programInfo) {
     /*
       Snippet to check if lists don't have any tags other than <li>
     */
-    ul *:not(li) {
+    ul > *:not(li):before {
       content: 'Unordered List can only have <li> tags';
       border: 2px solid var(--abell-a11y-error);
     }
-    ol *:not(li) {
-      content: 'Unordered List can only have <li> tags';
+    ol > *:not(li):before {
+      content: 'Ordered List can only have <li> tags';
       border: 2px solid var(--abell-a11y-error);
     }
   </style>
