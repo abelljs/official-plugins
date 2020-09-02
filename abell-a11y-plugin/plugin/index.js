@@ -27,7 +27,7 @@ function beforeHTMLWrite(htmlText, programInfo) {
     :root {
       --abell-a11y-error: #f30;
       --abell-a11y-color: #111;
-      --abell-a11y-bg: #eee;
+      --abell-a11y-bg: #e9e9e9;
     }
     /* 
       Took this CSS from Tweet - https://twitter.com/geoffreycrofte/status/1277357145802104838
@@ -64,10 +64,12 @@ function beforeHTMLWrite(htmlText, programInfo) {
     ul > *:not(li):before {
       content: 'Unordered List can only have <li> tags';
       border: 2px solid var(--abell-a11y-error);
+      background-color: var(--abell-a11y-bg);
     }
     ol > *:not(li):before {
       content: 'Ordered List can only have <li> tags';
       border: 2px solid var(--abell-a11y-error);
+      background-color: var(--abell-a11y-bg);
     }
   </style>
   `;
