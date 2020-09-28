@@ -2,10 +2,10 @@
 
 Plugins that are maintained by Abell Team
 
-[x] [abell-sitemap-plugin](abell-sitemap-plugin)
-[x] [abell-source-devto](abell-source-devto)
-[x] [abell-a11y-plugin](abell-a11y-plugin)
-[ ] [abell-source-medium](abell-source-medium) (WIP)
+- [x] [abell-sitemap-plugin](abell-sitemap-plugin)
+- [x] [abell-source-devto](abell-source-devto)
+- [x] [abell-a11y-plugin](abell-a11y-plugin)
+- [ ] [abell-source-medium](abell-source-medium) (WIP)
 
 The steps of installation and setup are mentioned in the respective repositories.
 
