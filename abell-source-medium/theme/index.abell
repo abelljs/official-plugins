@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+  <h1>Medium Articles</h1>
+  {{
+    Abell.contentArray
+      .map(meta => /* html */ `
+      <div>
+        ${meta.title}
+        ${meta.$createdAt.toDateString()}
+        <a href="${meta.$path}">${meta.$path}</a>
+      </div>
+      `)
+  }}
+  </body>
+</html>

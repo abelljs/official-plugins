@@ -1,0 +1,16 @@
+{{
+  const { meta, importContent } = Abell;
+}}
+
+<html>
+  <head>
+    <style>
+      body {
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+  {{ importContent(`${meta.$path}/index.md`) }}
+  </body>
+</html>
