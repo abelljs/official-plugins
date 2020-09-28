@@ -4,7 +4,7 @@
   "description": "EXPERIMENTAL dev.to source plugin for [Abell](https://abelljs.org)",
   "main": "plugin/index.js",
   "dependencies": {
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "abell": "^0.4.0"
