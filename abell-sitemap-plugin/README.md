@@ -25,9 +25,9 @@ replace `domain` with your website's domain that you want search engines to see.
 
 First, fork this repository
 ```
-git clone https://github.com/:your-github-username/abell-sitemap-plugin
-cd abell-sitemap-plugin
-npx abell build
+git clone https://github.com/:your-github-username/official-plugins
+cd official-plugins/abell-sitemap-plugin
+npm run build
 ```
 
 This will build files into `dist` folder. If it runs without failure, you will be able to see `sitemap.xml` file in `dist`.
