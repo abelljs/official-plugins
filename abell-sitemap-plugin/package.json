@@ -1,6 +1,6 @@
 {
   "name": "abell-sitemap-plugin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Builds sitemap for Abell (https://abelljs.org)",
   "main": "plugin/index.js",
   "scripts": {
@@ -19,10 +19,10 @@
     "url": "https://github.com/abelljs/official-plugins/issues"
   },
   "peerDependencies": {
-    "abell": "^0.4.0"
+    "abell": "^0.10.0"
   },
   "homepage": "https://github.com/abelljs/official-plugins#readme",
   "devDependencies": {
-    "abell": "^0.4.0"
+    "abell": "^0.10.0"
   }
 }
