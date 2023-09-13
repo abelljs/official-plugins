@@ -1,5 +1,9 @@
 # official-plugins
 
+> **Warning**
+>
+> Starting v1, Abell is moving out of custom plugins. Now it relies on Vite plugins to enable integrations. 
+
 Plugins that are maintained by Abell Team
 
 - [x] [abell-sitemap-plugin](abell-sitemap-plugin)
